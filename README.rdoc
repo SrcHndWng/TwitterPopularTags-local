@@ -1,0 +1,19 @@
+== README
+
+=== About
+
+This is a sample application to get latest poplular hashtags from twitter, improved below "TwitterPopularTags.scala".
+
+https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/streaming/TwitterPopularTags.scala
+
+=== Environments
+
+* Scala 2.10.4
+
+* sbt 0.13
+
+* Apache Spark 1.2.0
+
+== Before Start
+1. Copy src/main/resources/config.properties.sample to src/main/resources/config.properties.
+2. Write twitter access keys.
